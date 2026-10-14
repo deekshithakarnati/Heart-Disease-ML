@@ -85,16 +85,41 @@ Other important features include:
 - `heart_disease_risk_2026.csv` - Dataset
 - `heart_disease_model.pkl` - Trained Random Forest model
 
+## Web Application & Deployment
+
+The trained model is deployed as an interactive web application built with **Streamlit**.
+
+### 🌟 Web App Features
+- **Interactive Risk Prediction:** Enter 25 patient parameters (vitals, blood chemistry, ECG, and lifestyle) to compute cardiac risk probability.
+- **Quick Preset Archetypes:** Pre-loaded samples (Healthy Adult, Borderline Risk, High Risk) for instant demonstration.
+- **Personalized Factor Analysis:** Highlights elevated risk markers (Blood Pressure, LDL, ST Depression, low physical activity).
+- **Feature Importance & Analytics:** Visual breakdown of the most critical predictors identified by Random Forest.
+
+### 🚀 Running the App Locally
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch web app
+streamlit run app.py
+```
+Access the application in your browser at `http://localhost:8501`.
+
+### 🌐 Cloud Deployment (Live Link)
+See [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for 1-click free deployment to **Streamlit Community Cloud** (live link: `https://<your-username>-heart-disease-ml.streamlit.app`) and **Hugging Face Spaces**.
+
 ## Technologies Used
 
 - Python
+- Streamlit
+- Scikit-learn
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Scikit-learn
 - Jupyter Notebook
 
 ## Disclaimer
 
-This project is for educational and research purposes only and should not be used as a medical diagnosis tool.
+This project is for educational and research purposes only and should not be used as a medical diagnosis tool.
