@@ -6,6 +6,16 @@ This project predicts whether a patient has heart disease using machine learning
 
 The dataset contains 9,000 patient records with 27 columns.
 
+## 📑 Project Deliverables & Technical Documentation
+
+For complete evaluation and submission details, refer to the dedicated documentation files:
+
+1. **[DATA SET ASSIGNED](DATA_SET_ASSIGNED.md)**: Dataset specifications, complete 25-feature data dictionary, clinical descriptions, distributions, and preprocessing steps.
+2. **[Deployment Platform](DEPLOYMENT_PLATFORM.md)**: Cloud platform architecture, Streamlit Community Cloud & Hugging Face hosting, container specifications, and continuous deployment pipeline.
+3. **[Model Deployment](MODEL_DEPLOYMENT.md)**: End-to-end pipeline architecture, model caching, real-time inference engine, clinical risk categorization logic, and rule-based factor flags.
+4. **[Prediction & Testing](PREDICTION_AND_TESTING.md)**: Comprehensive evaluation metrics (88.17% accuracy), confusion matrix, feature importance rankings, automated unit test suite (`test_app_logic.py`), and test case results.
+
+
 ## Dataset
 
 The dataset contains patient health and lifestyle information such as:
