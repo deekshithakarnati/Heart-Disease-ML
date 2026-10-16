@@ -14,6 +14,10 @@ For complete evaluation and submission details, refer to the dedicated documenta
 2. **[Deployment Platform](DEPLOYMENT_PLATFORM.md)**: Cloud platform architecture, Streamlit Community Cloud & Hugging Face hosting, container specifications, and continuous deployment pipeline.
 3. **[Model Deployment](MODEL_DEPLOYMENT.md)**: End-to-end pipeline architecture, model caching, real-time inference engine, clinical risk categorization logic, and rule-based factor flags.
 4. **[Prediction & Testing](PREDICTION_AND_TESTING.md)**: Comprehensive evaluation metrics (88.17% accuracy), confusion matrix, feature importance rankings, automated unit test suite (`test_app_logic.py`), and test case results.
+5. **[Performance Evaluation Metrics](PERFORMANCE_EVALUATION_METRICS.md)**: Mathematical formulations and clinical interpretations of Accuracy, Precision (86.40%), Recall (72.29%), Specificity (95.06%), F1-Score (78.72%), and ROC-AUC (0.9362).
+6. **[Model Comparison](MODEL_COMPARISON.md)**: Empirical benchmarking across 7 classifiers (Logistic Regression, Gradient Boosting, Random Forest, AdaBoost, Naive Bayes, KNN, Decision Tree) and selection rationale.
+7. **[Hyperparameter Tuning](HYPERPARAMETER_TUNING.md)**: Stratified Grid Search CV optimization for Random Forest, sensitivity analysis of trees, depth, splits, and generalization validation.
+
 
 
 ## Dataset
